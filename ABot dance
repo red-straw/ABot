@@ -1,0 +1,40 @@
+#include <Servo.h>
+Servo r;
+Servo l;
+
+void setup() {
+  r.attach(12);
+  l.attach(13);
+
+  r.write(1500); // 정지
+  l.write(1500);
+  delay(1000);
+}
+
+void loop() {
+
+
+  r.write(1300);  // 오른쪽 바퀴 앞으로
+  l.write(1500);
+  delay(200);
+
+ 
+  r.write(1500);
+  l.write(1500);
+  delay(200);
+
+
+  r.write(1700);
+  l.write(1500);
+  delay(200);
+
+ 
+  r.write(1500);
+  l.write(1500);
+  delay(200);
+
+
+  r.write(1500);
+  l.write(1700);
+  delay(1000);
+}
