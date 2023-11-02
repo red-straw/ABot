@@ -16,25 +16,75 @@ void loop() {
 
   r.write(1300);  // 오른쪽 바퀴 앞으로
   l.write(1500);
-  delay(200);
+  delay(400);
 
- 
-  r.write(1500);
+  r.write(1700);  //오른쪽바퀴 뒤로
   l.write(1500);
-  delay(200);
+  delay(400);
 
+  r.write(1500);  //왼쪽바퀴 뒤로
+  l.write(1700);
+  delay(400);
 
-  r.write(1700);
+  r.write(1500);  //왼쪽바퀴 뒤로
+  l.write(1300);
+  delay(400);
+
+   r.write(1300);  // 오른쪽 바퀴 앞으로
   l.write(1500);
-  delay(200);
+  delay(400);
 
- 
-  r.write(1500);
+  r.write(1700);  //오른쪽바퀴 뒤로
   l.write(1500);
-  delay(200);
+  delay(400);
+
+  r.write(1500);  //왼쪽바퀴 뒤로
+  l.write(1700);
+  delay(400);
+
+  r.write(1500);  //왼쪽바퀴 뒤로
+  l.write(1300);
+  delay(400);
 
 
   r.write(1500);
   l.write(1700);
+  delay(1000);
+
+
+  r.write(1300);  // 오른쪽 바퀴 앞으로
+  l.write(1500);
+  delay(400);
+
+  r.write(1700);  //오른쪽바퀴 뒤로
+  l.write(1500);
+  delay(400);
+
+  r.write(1500);  //왼쪽바퀴 뒤로
+  l.write(1700);
+  delay(400);
+
+  r.write(1500);  //왼쪽바퀴 뒤로
+  l.write(1300);
+  delay(400);
+
+ r.write(1300);  // 오른쪽 바퀴 앞으로
+  l.write(1500);
+  delay(400);
+
+  r.write(1700);  //오른쪽바퀴 뒤로
+  l.write(1500);
+  delay(400);
+
+  r.write(1500);  //왼쪽바퀴 뒤로
+  l.write(1700);
+  delay(400);
+
+  r.write(1500);  //왼쪽바퀴 뒤로
+  l.write(1300);
+  delay(400);
+  
+  r.write(1500);
+  l.write(1300);
   delay(1000);
 }
